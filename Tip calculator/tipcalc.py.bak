@@ -5,5 +5,5 @@ people = int(input("How many people to split the bill? \n"))
 tipnew = (tip / 100 + 1)
 answer = float(total * tipnew / people)
 #check format for tomorrow
-totalnew = "{:.2f}".format(answer)
+totalnew = round(answer,2 )
 print(f"Each person should pay: $ {totalnew}")
