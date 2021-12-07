@@ -1,12 +1,12 @@
 bmi = weight / (height * height)
-bmi2 = int(round(bmi, 0))
+bmi2 = round(bmi)
 if bmi < 18.5:
     print(f"Your BMI is {bmi2}, you are underweight.")
-elif bmi < 25:
+elif bmi2 < 25:
      print(f"Your BMI is {bmi2}, you have a normal weight.")
-elif bmi < 30:
+elif bmi2 < 30:
      print(f"Your BMI is {bmi2}, you are slightly overweight.")
-elif bmi < 35:
+elif bmi2 < 35:
      print(f"Your BMI is {bmi2}, you are obese.")
 else:
      print(f"Your BMI is {bmi2}, you are clinically obese.")

@@ -1,3 +1,5 @@
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
 bmi = weight / (height * height)
 bmi2 = round(bmi)
 if bmi < 18.5:
